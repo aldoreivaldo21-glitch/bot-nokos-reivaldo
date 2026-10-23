@@ -1,0 +1,7 @@
+[build]
+builder = "NIXPACKS"
+buildCommand = "pip install -r requirements.txt"
+
+[deploy]
+startCommand = "python main.py" # Sesuaikan jika nama file Anda bot.py
+restartPolicyType = "ON_FAILURE"
