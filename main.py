@@ -13,7 +13,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 # --- KONFIGURASI ---
 TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 ADMIN_ID = os.environ.get("ADMIN_TELEGRAM_ID", "7854456597")
-SMScode_API_KEY = os.environ.get("SMScode_API_KEY")
+SMSCODE_API_KEY = os.environ.get("SMScode_API_KEY")
 LOW_BALANCE_THRESHOLD = 2000
 BOT_VERSION = "2.8 Professional"
 START_TIME = time.time()
